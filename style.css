@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 40, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main{
+    height: 500px;
+    width: 700px;
+    background-color: rgba(236, 228, 228, 0.144);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border-bottom-color: black;
+    border-top-color: aqua;
+    border-radius: 10px;
+}
+.heading{
+    margin-left: 30px;
+}
+.heading h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+}
+.heading span{
+   color: #069538;
+}
+.input{
+    margin-left: 30px;
+    display: flex;
+
+}
+.input input{
+    width: 500px;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+}
+.input input::placeholder{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.input i{
+   font-size: 40px;
+   color: #019f55;
+}
+.button{
+    margin-left: 30px;
+}
+.button button{
+    height: 50px;
+    width: 280px;
+    background-color: #0d9e14ea;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    border: 2px solid black;
+    border-radius: 8px;
+}
+ 
+@media (max-width:600px) {
+    .contanier{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .main{
+        height: 300px;
+        width: 350px;
+        background-color: rgba(236, 228, 228, 0.144);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        border-bottom-color: black;
+        border-top-color: aqua;
+        border-radius: 10px;
+    }
+    .heading h1{
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+    }
+    .heading span{
+        color: #069538;
+    }
+
+    .input input{
+    /* width: 500px; */
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 40px;
+
+    }
+    .input i{
+        font-size: 40px;
+    }
+   .button button{
+    height: 50px;
+    width: 250px;
+    background-color: #0d9e14ea;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    border: 2px solid black;
+    border-radius: 10px;
+   }
+}
